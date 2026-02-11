@@ -8,7 +8,7 @@ import ErrorPage from "./views/ErrorPage";
 
 const basename =
   process.env.NODE_ENV === "production"
-    ? "/Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan"
+    ? "/app-trouve-ton-artisan"
     : "";
 
 const App = () => {
