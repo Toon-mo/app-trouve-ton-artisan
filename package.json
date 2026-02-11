@@ -2,7 +2,7 @@
   "name": "trouver-mon-artisan",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Toon-mo.github.io/Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan",
+  "homepage": "https://Toon-mo.github.io/app-trouve-ton-artisan",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
