@@ -100,7 +100,7 @@ Pour commencer, clonez ce dépôt GitHub sur votre machine locale :
 
 ```Bash
 git clone https://github.com/Toon-mo/app-trouve_ton_artisan.git
-cd Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan
+cd app-trouve-ton-artisan
 ```
 
 ### 1. Base de données
@@ -116,7 +116,7 @@ cd Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan
 ```bash
 # Naviguez vers le dossier backend
 
-cd Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan/backend
+cd app-trouve-ton-artisan/backend
 
 # Créez le fichier .env avec vos paramètres MySQL (accès local uniquement)
 
@@ -146,7 +146,7 @@ REACT_APP_API_URL=http://localhost:3001
 ### Démarrer le backend
 
 ```bash
-cd Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan/backend
+cd app-trouve-ton-artisan/backend
 node server.js
 ```
 
@@ -159,13 +159,13 @@ Vérifiez sur : http://localhost:3001/api/artisans/top
 ### Démarrer le frontend
 
 ```bash
-cd Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan
+cd app-trouve-ton-artisan
 npm start
 ```
 
 ## 📖 Livrables
 
-- 📊 **Rapport de conception** : [Lien vers le PDF](https://github.com/Toon-mo/Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan/blob/main/src/assets/pdf/RAPPORT%20DE%20CONCEPTION%20ET%20D%C3%89VELOPPEMENT.pdf)
+- 📊 **Rapport de conception** : [Lien vers le PDF](https://github.com/Toon-mo/app-trouve-ton-artisan/blob/main/src/assets/pdf/RAPPORT_DE_CONCEPTION_ET_DEVELOPPEMENT.pdf)
 - 🎨 **Maquettes Figma** : [[Lien vers le projet Figma](https://www.figma.com/design/xOKsqnGnTt8A0tjQ3q9XyU/Devoir-Bilan-Morieux-Tony?node-id=0-1&t=mYo54lJSy2OAwu4I-1)]
 - 🌐 **Application en ligne** : [Lien vers le site déployé](https://toon-mo.github.io/Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan/)
 
