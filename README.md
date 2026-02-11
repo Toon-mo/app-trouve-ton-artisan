@@ -99,7 +99,7 @@ trouver_mon_artisan_app/
 Pour commencer, clonez ce dépôt GitHub sur votre machine locale :
 
 ```Bash
-git clone https://github.com/Toon-mo/Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan.git
+git clone https://github.com/Toon-mo/app-trouve_ton_artisan.git
 cd Morieux_Tony_devoir_8_Devoir_Bilan_Trouve_ton_artisan
 ```
 
