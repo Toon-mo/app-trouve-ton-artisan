@@ -3,7 +3,8 @@ import ValidationCard from "./ValidationCard";
 import "../styles/_settings.scss";
 import "../styles/components/_validationCard.scss";
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://api-trouve-ton-artisan.onrender.com";
+
 
 const Formulaire = ({ artisanId }) => {
   const [name, setName] = useState("");
