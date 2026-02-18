@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import "../styles/_settings.scss";
 import "../styles/components/_artisanCard.scss";
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://api-trouve-ton-artisan.onrender.com";
 
 const ArtisanPage = () => {
   const { artisanId } = useParams();
