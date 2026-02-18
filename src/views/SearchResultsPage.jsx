@@ -7,7 +7,7 @@ import Cards from "../components/Cards";
 import "../styles/_settings.scss";
 
 // Récupère l'URL de l'API depuis les variables d'environnement
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://api-trouve-ton-artisan.onrender.com";
 
 // Composant pour la page des résultats de recherche
 const SearchResultsPage = () => {
