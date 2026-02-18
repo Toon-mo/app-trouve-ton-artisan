@@ -6,7 +6,7 @@ import Cards from "../components/Cards";
 import Footer from "../components/Footer";
 import "../styles/_settings.scss";
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://api-trouve-ton-artisan.onrender.com";
 
 const CategoryPage = () => {
   const { categoryName } = useParams(); // Récupère le nom de la catégorie depuis l'URL (ex: /batiment)
