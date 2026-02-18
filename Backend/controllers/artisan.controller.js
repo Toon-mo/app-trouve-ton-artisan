@@ -103,7 +103,7 @@ exports.getTopArtisans = async (req, res) => {
   try {
     // Cherche les artisans marqués comme "top" (top = 1)
     const topArtisans = await db.Artisan.findAll({
-      where: { top: 1 }, // Seulement ceux avec top = 1
+      where: { top: true }, 
       limit: 3, // Maximum 3 résultats
       include: [
         {
