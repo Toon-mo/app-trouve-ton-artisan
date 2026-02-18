@@ -19,8 +19,6 @@ app.use("/api", apiRoutes);
 // Connecte la base de données avant de démarrer le serveur
 connectDB().then(async () => {
   try {
-    // Cette ligne crée les tables automatiquement si elles n'existent pas
-    await sequelize.sync({ alter: true });
     console.log("Tables de la base de données synchronisées avec succès !");
     
   // Démarre le serveur
