@@ -22,7 +22,6 @@ async function connectDB() {
   try {
     // Tentative de connexion à la base de données
     await sequelize.authenticate();
-    await sequelize.sync({ alter: true }); 
     console.log("Connexion à la base de données établie avec succès.");
   } catch (error) {
     // En cas d'erreur de connexion
