@@ -4,7 +4,8 @@ import "../styles/components/_navigation.scss";
 import logoImg from "../assets/images/Logo.png";
 import searchIcon from "../assets/images/SearchIcon.png";
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://api-trouve-ton-artisan.onrender.com";
+
 
 const Navigation = () => {
   const [categories, setCategories] = useState([]);
