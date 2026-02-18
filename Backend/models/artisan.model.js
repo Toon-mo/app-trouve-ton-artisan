@@ -52,7 +52,7 @@ const Artisan = sequelize.define(
     },
     // Indique si l'artisan est dans le top 3 du mois
     top: {
-      type: DataTypes.TINYINT(1), // Booléen (0 ou 1)
+      type: DataTypes.INTEGER(1), // Booléen (0 ou 1)
       allowNull: false, // Champ obligatoire
       defaultValue: 0, // Par défaut pas dans le top
       field: "top", // Nom de la colonne dans la table
