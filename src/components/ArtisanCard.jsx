@@ -5,7 +5,7 @@ import StarRating from "./StarRating";
 import "../styles/components/_artisanCard.scss";
 import "../styles/components/_formulaire.scss";
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://api-trouve-ton-artisan.onrender.com";
 
 const ArtisanCard = ({ artisanId }) => {
   const [artisan, setArtisan] = useState(null);
