@@ -12,6 +12,8 @@ const contactController = require("../controllers/contact.controller");
 // Routes pour les catégories
 router.get("/categories", categorieController.getAllCategories); // Récupère toutes les catégories
 router.get("/categories/name", categorieController.getCategoryByName); // Recherche une catégorie par nom
+router.get("/categories/slug/:slug", categorieController.getCategoryBySlug);
+
 
 // Routes pour les artisans
 router.get("/artisans", artisanController.getAllArtisans); // Récupère tous les artisans (avec filtres)
