@@ -48,3 +48,30 @@ exports.getCategoryByName = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+// Récupère une catégorie par son slug
+exports.getCategoryBySlug = async (req, res) => {
+  // Récupère le slug depuis les paramètres de l’URL (/slug/:slug)
+  const { slug } = req.params;
+
+  try {
+    // Recherche une catégorie correspondant à ce slug
+    const category = await Categorie.findOne({
+      where: { slug },
+    });
+
+    // Si aucune catégorie n'est trouvée avec ce slug
+    if (!category)
+      return res.status(404).json({ error: "Catégorie introuvable" });
+
+    // Retourne la catégorie trouvée
+    res.json(category);
+  } catch (err) {
+    // Affiche l'erreur dans la console pour le debug
+    console.error("Erreur lors de la récupération de la catégorie par slug :", err);
+
+    // Retourne une erreur 500 avec un message d'erreur
+    res.status(500).json({ error: "Erreur serveur" });
+  }
+};
+
