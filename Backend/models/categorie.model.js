@@ -18,14 +18,22 @@ const Categorie = sequelize.define(
     nom_categorie: {
       type: DataTypes.STRING(50), // Texte de 50 caractères max
       allowNull: false, // Champ obligatoire
-      field: "categorie", // Nom de la colonne dans la table
+      field: "nom_categorie", // Nom de la colonne dans la table
     },
   },
-  {
-    tableName: "tab_categorie", // Nom de la table dans la base
-    timestamps: false, // Pas de colonnes created_at/updated_at
-  }
-);
+    // Slug de la catégorie
+    slug: {
+      type: DataTypes.STRING(255),
+      allowNull: false,
+      unique: true,
+      field: "slug",
+    },
+   },
+    {
+      tableName: "tab_categorie", // Nom de la table dans la base
+      timestamps: false, // Pas de colonnes created_at/updated_at
+    }
+  );
 
 // Export du modèle pour l'utiliser ailleurs
 module.exports = Categorie;
