@@ -28,7 +28,6 @@ const Categorie = sequelize.define(
       unique: true,
       field: "slug",
     },
-   },
     {
       tableName: "tab_categorie", // Nom de la table dans la base
       timestamps: false, // Pas de colonnes created_at/updated_at
