@@ -6,6 +6,12 @@ import searchIcon from "../assets/images/SearchIcon.png";
 
 const API_URL = "https://api-trouve-ton-artisan.onrender.com";
 
+const slugify = (str) =>
+  str
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // enlève accents
+    .toLowerCase()
+    .replace(/\s+/g, "-"); // espaces → tirets
+
 
 const Navigation = () => {
   const [categories, setCategories] = useState([]);
@@ -70,8 +76,7 @@ const Navigation = () => {
           {categories.map((cat) => {
             return (
               <li className="nav-item ms-0" key={cat.id_categorie}>
-                <NavLink
-                  to={`/categorie/${cat.nom_categorie.toLowerCase()}`}
+                <NavLink to={`/categorie/${slugify(cat.categorie)}`}
                   className="nav-link"
                 >
                   {cat.nom_categorie}
