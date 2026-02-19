@@ -31,7 +31,7 @@ const Categorie = sequelize.define(
   {
     tableName: "tab_categorie", // Nom de la table dans la base
     timestamps: false, // Pas de colonnes created_at/updated_at
-  },
+  }
 );
 
 // Export du modèle pour l'utiliser ailleurs
