@@ -30,7 +30,7 @@ const CategoryPage = () => {
         if (categoryName) {
           // recherche par catégorie
           const catRes = await fetch(
-            `${API_URL}/api/categories/name?name=${encodeURIComponent(
+            `${API_URL}/api/categories/slug/${encodeURIComponent(
               categoryName
             )}`
           );
