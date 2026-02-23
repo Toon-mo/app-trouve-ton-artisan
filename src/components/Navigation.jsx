@@ -76,9 +76,7 @@ const Navigation = () => {
           {categories.map((cat) => {
             return (
               <li className="nav-item ms-0" key={cat.id_categorie}>
-                <NavLink to={`/categorie/${slugify(cat.nom_categorie)}`}
-                  className="nav-link"
-                >
+                <NavLink to={`/categorie/${cat.slug}`} className="nav-link">
                   {cat.nom_categorie}
                 </NavLink>
               </li>
