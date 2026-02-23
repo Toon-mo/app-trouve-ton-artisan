@@ -18,22 +18,17 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/categorie/:categoryName" element={<CategoryPage />} />
         <Route path="/artisan/:artisanId" element={<ArtisanPage />} />
-        <Route
-          path="/mentions"
-          element={<LegalPage pageType="mentions-legales" />}
-        />
+        <Route path="/mentions-legales" element={<LegalPage pageType="mentions-legales" />} />
         <Route path="/artisans" element={<SearchResultsPage />} />
-        <Route
-          path="/data"
-          element={<LegalPage pageType="donnees-personnelles" />}
-        />
-        <Route
-          path="/accessibilite"
-          element={<LegalPage pageType="accessibilite" />}
-        />
+        <Route path="/donnees-personnelles" element={<LegalPage pageType="donnees-personnelles" />}
+/>
+        <Route path="/accessibilite" element={<LegalPage pageType="accessibilite" />}
+/>
         <Route path="/cookies" element={<LegalPage pageType="cookies" />} />
-        <Route path="/contacts" element={<LegalPage pageType="contacts" />} />
-        <Route path="/presse" element={<LegalPage pageType="presse" />} />
+        <Route path="/contacts" element={<LegalPage pageType="contacts" />}
+/>
+        <Route path="/presse" element={<LegalPage pageType="presse" />}
+/>
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
