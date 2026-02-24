@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app-trouve-ton-artisan/static/css/main.422abac6.css",
-    "main.js": "/app-trouve-ton-artisan/static/js/main.539ceb6d.js",
+    "main.js": "/app-trouve-ton-artisan/static/js/main.6af7c26e.js",
     "static/media/Atelier.jpg": "/app-trouve-ton-artisan/static/media/Atelier.f1d05250984c9bb33e6a.jpg",
     "static/media/Graphik-Regular-Trial.otf": "/app-trouve-ton-artisan/static/media/Graphik-Regular-Trial.e7f4046c1937c259c933.otf",
     "static/media/Traiteur.jpg": "/app-trouve-ton-artisan/static/media/Traiteur.51b70d89d656279ba9ac.jpg",
@@ -22,10 +22,10 @@
     "static/media/Fleuriste.jpg": "/app-trouve-ton-artisan/static/media/Fleuriste.b30fe475490ff03e8b22.jpg",
     "index.html": "/app-trouve-ton-artisan/index.html",
     "main.422abac6.css.map": "/app-trouve-ton-artisan/static/css/main.422abac6.css.map",
-    "main.539ceb6d.js.map": "/app-trouve-ton-artisan/static/js/main.539ceb6d.js.map"
+    "main.6af7c26e.js.map": "/app-trouve-ton-artisan/static/js/main.6af7c26e.js.map"
   },
   "entrypoints": [
     "static/css/main.422abac6.css",
-    "static/js/main.539ceb6d.js"
+    "static/js/main.6af7c26e.js"
   ]
 }
