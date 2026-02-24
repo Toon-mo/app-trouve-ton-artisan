@@ -76,7 +76,7 @@ const Footer = () => {
                     to="/cookies"
                   >
                     Cookies
-                  </a>
+                  </link>
                 </li>
               </ul>
             </div>
