@@ -41,6 +41,44 @@ const Navigation = () => {
       setSearchTerm("");
     }
   };
+    useEffect(() => {
+    const menu = document.getElementById("navbarText");
+    const search = document.getElementById("mobileSearchCollapse");
+    const burger = document.querySelector(".navbar-toggler");
+    const searchBtn = document.getElementById("btnSearch2");
+
+    // Fermer le menu si on clique sur un lien
+    const links = menu.querySelectorAll("a");
+    links.forEach((link) => {
+      link.addEventListener("click", () => {
+        menu.classList.remove("show");
+      });
+    });
+
+    // Fermer le menu si on clique en dehors
+    document.addEventListener("click", (e) => {
+      if (!menu.contains(e.target) && !burger.contains(e.target)) {
+        menu.classList.remove("show");
+      }
+    });
+
+    // Fermer la recherche si on clique en dehors
+    document.addEventListener("click", (e) => {
+      if (!search.contains(e.target) && !searchBtn.contains(e.target)) {
+        search.classList.remove("show");
+      }
+    });
+
+    // Fermer la recherche si on ouvre le menu
+    burger.addEventListener("click", () => {
+      search.classList.remove("show");
+    });
+
+    // Fermer le menu si on ouvre la recherche
+    searchBtn.addEventListener("click", () => {
+      menu.classList.remove("show");
+    });
+  }, []);
 
   return (
     <nav className="navbar navbar-expand-lg shadow bg-custom">
