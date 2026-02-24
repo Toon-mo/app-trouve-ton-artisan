@@ -37,43 +37,43 @@ const Footer = () => {
             <div className="container-fluid">
               <ul className="list-unstyled justify-content-evenly listItem">
                 <li className="list-group-item mb-4">
-                  <a
+                  <link
                     className="text-decoration-none text-white"
-                    href="/mentions"
+                    to="/mentions-legales"
                   >
                     Mentions légales
-                  </a>
+                  </link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <a
+                  <link
                     className="text-decoration-none text-white"
-                    href="/accessibilite"
+                    to="/accessibilite"
                   >
                     Accessibilité
-                  </a>
+                  </link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <a className="text-decoration-none text-white" href="/data">
+                  <link className="text-decoration-none text-white" to="/data">
                     Données personnelles
-                  </a>
+                  </link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <a
+                  <link
                     className="text-decoration-none text-white"
-                    href="/contacts"
+                    to="/contacts"
                   >
                     Contacts
-                  </a>
+                  </link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <a className="text-decoration-none text-white" href="/presse">
+                  <link className="text-decoration-none text-white" to="/presse">
                     Presse
-                  </a>
+                  </link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <a
+                  <link
                     className="text-decoration-none text-white"
-                    href="/cookies"
+                    to="/cookies"
                   >
                     Cookies
                   </a>
