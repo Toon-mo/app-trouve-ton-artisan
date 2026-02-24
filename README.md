@@ -221,7 +221,7 @@ Le frontend communique avec l’API via REACT_APP_API_URL.
 ### 📖 Livrables
 
 - 📊 Rapport de conception
-  https://github.com/Toon-mo/app-trouve-ton-artisan/blob/main/src/assets/pdf/RAPPORT_DE_CONCEPTION_ET_DEVELOPPEMENT.pdf
+  [https://github.com/Toon-mo/app-trouve-ton-artisan/blob/main/src/assets/pdf/RAPPORT_DE_CONCEPTION_ET_DEVELOPPEMENT.pdf](https://github.com/Toon-mo/app-trouve-ton-artisan/blob/main/src/assets/pdf/RAPPORT_DE_CONCEPTION_ET_DEVELOPPEMENT.pdf)
 
 - 🎨 Maquettes Figma
   https://www.figma.com/design/xOKsqnGnTt8A0tjQ3q9XyU/Devoir-Bilan-Morieux-Tony (figma.com in Bing)
