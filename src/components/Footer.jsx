@@ -12,9 +12,9 @@ const Footer = () => {
               className="container-left d-flex flex-column col-12 col-md-3 ms-5 ms-md-0 mb-5 mb-md-0"
               id="logo"
             >
-              <a className="logo mt-0" href="/">
+              <Link className="logo mt-0" to="/">
                 <img className="img-fluid" src={LogoImg2} alt="Logo" />
-              </a>
+              </Link>
             </div>
             <div
               className="container-right d-flex flex-column justify-content-center align-items-start col-12 col-md-3 ms-5 ms-md-0 mb-5"
@@ -37,46 +37,46 @@ const Footer = () => {
             <div className="container-fluid">
               <ul className="list-unstyled justify-content-evenly listItem">
                 <li className="list-group-item mb-4">
-                  <link
+                  <Link
                     className="text-decoration-none text-white"
                     to="/mentions-legales"
                   >
                     Mentions légales
-                  </link>
+                  </Link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <link
+                  <Link
                     className="text-decoration-none text-white"
                     to="/accessibilite"
                   >
                     Accessibilité
-                  </link>
+                  </Link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <link className="text-decoration-none text-white" to="/data">
+                  <Link className="text-decoration-none text-white" to="/data">
                     Données personnelles
-                  </link>
+                  </Link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <link
+                  <Link
                     className="text-decoration-none text-white"
                     to="/contacts"
                   >
                     Contacts
-                  </link>
+                  </Link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <link className="text-decoration-none text-white" to="/presse">
+                  <Link className="text-decoration-none text-white" to="/presse">
                     Presse
-                  </link>
+                  </Link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <link
+                  <Link
                     className="text-decoration-none text-white"
                     to="/cookies"
                   >
                     Cookies
-                  </link>
+                  </Link>
                 </li>
               </ul>
             </div>
