@@ -6,14 +6,9 @@ import SearchResultsPage from "./views/SearchResultsPage";
 import LegalPage from "./views/LegalPage";
 import ErrorPage from "./views/ErrorPage";
 
-const basename =
-  process.env.NODE_ENV === "production"
-    ? "/app-trouve-ton-artisan"
-    : "";
-
 const App = () => {
   return (
-    <BrowserRouter basename={basename}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/categorie/:categoryName" element={<CategoryPage />} />
