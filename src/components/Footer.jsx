@@ -53,7 +53,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="list-group-item mb-4">
-                  <Link className="text-decoration-none text-white" to="/data">
+                  <Link className="text-decoration-none text-white" to="/donnees-personnelles">
                     Données personnelles
                   </Link>
                 </li>
