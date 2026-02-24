@@ -92,21 +92,16 @@ const ArtisanCard = ({ artisanId }) => {
             type="button"
             className="btn bg-custom-1"
             onClick={toggleForm}
-            data-bs-toggle="collapse"
-            data-bs-target="#formCollapse"
-            aria-expanded={showForm}
-            aria-controls="formCollapse"
           >
             {showForm ? "Fermer le formulaire" : "Prendre contact"}
           </button>
         </div>
 
-        <div
-          id="formCollapse"
-          className={`formContainer collapse ${showForm ? "show" : ""}`}
-        >
-          <Formulaire artisanId={artisan.id_artisan} />
-        </div>
+        {showForm && (
+          <div className="formContainer">
+            <Formulaire artisanId={artisan.id_artisan} />
+          </div>
+        )}
       </div>
     </div>
   );
